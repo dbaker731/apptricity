@@ -83,7 +83,8 @@ body {
 .content-container-1 {
   width: 65%;
   margin: 100px auto;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: sans-serif;
 }
 
 .content-container-2 {
@@ -140,7 +141,7 @@ body {
     height: 750px;
   }
   .content-container-2 {
-    font-size: 2em;
+    font-size: 3em;
     padding-top: 85px;
   }
 }
