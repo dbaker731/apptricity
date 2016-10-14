@@ -3,11 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Apptricity</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/master.css">
   </head>
   <body>
     <!-- creating a container for the entire page -->
     <div class="main-container">
+      <!-- navbar starts here -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">Daniel Baker</a>
+         </div>
+
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="#">Action</a></li>
+               <li><a href="#">Another action</a></li>
+               <li><a href="#">Something else here</a></li>
+               <li role="separator" class="divider"></li>
+               <li><a href="#">Separated link</a></li>
+             </ul>
+           </li>
+         </ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+   </nav>
       <!-- creating a container for the header -->
       <header class="header-container">
         <div class="header-top"></div>
@@ -17,43 +50,7 @@
         </div>
 
         <!-- navbar starts here -->
-        <div class="header-navbar-container">
-          <div class="persistent-header-top">
-            <!-- drop down menu starts here -->
-              <ul class="navbar-dropdown">
-                <!-- menu item 1 -->
-                <li class="menu-item"><a href="#">Home</a>
-                </li>
-                <!-- menu item 2 -->
-                <li class="menu-item"><a href="#">About</a>
-                  <ul class="navbar-item">
-                    <li><a href="#">Sub Menu 1</a></li>
-                    <li><a href="#">Sub Menu 2</a></li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                  </ul>
-                </li>
-                <!-- menu item 3 -->
-                <li class="menu-item"><a href="#">Services</a>
-                  <ul class="navbar-item">
-                    <li><a href="#">Sub Menu 1</a></li>
-                    <li><a href="#">Sub Menu 2</a></li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                  </ul>
-                </li>
-                <!-- menu item 4 -->
-                <li class="menu-item"><a href="#">Contact</a>
-                  <ul class="navbar-item">
-                    <li><a href="#">Sub Menu 1</a></li>
-                    <li><a href="#">Sub Menu 2</a></li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                  </ul>
-                </li>
 
-              </ul>
-              <!-- dropdown menu ends here -->
-          </div>
-
-        </div>
         <!-- navbar ends here -->
 
         <!-- creating contaienr for text over image -->
@@ -104,7 +101,8 @@
     </div>
     <!-- main container closing -->
 
-
-
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="src.js" charset="utf-8"></script>
   </body>
 </html>
