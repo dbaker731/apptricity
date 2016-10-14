@@ -135,8 +135,18 @@ body {
 
 @media (min-width: 1500px) {
   .jumbotron {
-    height: 700px;
+    height: 800px;
   }
+
+  .container {
+    margin-top: 425px;
+    margin left: 75px;
+  }
+
+  .container h1 {
+    font-size: 10em;
+  }
+
   .content-2-text-container h3  {
     font-size: 3em;
   }
