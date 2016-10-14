@@ -169,16 +169,19 @@ body {
 }
 
 /*setting css for non-mobile*/
-@media (min-width: 700px){
+/*@media (min-width: 700px){
   .navbar-dropdown{
     display: inline-block;
   }
-}
+}*/
 
 /*setting css for 1080p screen*/
 @media (min-width: 1500px) {
   .header-img-container > img {
-    width: 100%;
+    width: 50%;
     height: 700px;
+  }
+  .navbar-dropdown{
+    display: inline-block;
   }
 }
