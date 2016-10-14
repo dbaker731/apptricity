@@ -33,6 +33,10 @@ body {
     color: #fff;
 }
 
+.navbar-default .navbar-brand:hover {
+    color: #d8d8d8;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
@@ -56,7 +60,7 @@ body {
  background-size: cover;
  height: 600px;
  color: #fff;
- text-shadow: 1.5px 1.5px #000;
+ text-shadow: 2px 2px #000;
 }
 
 .container {
@@ -70,8 +74,13 @@ body {
 }
 
 .container p {
- font-size: 2em;
+ font-size: 2.5em;
 }
+
+.container p a {
+  text-shadow: none;
+}
+
 
 /* styling the content */
 .content-container {
@@ -84,7 +93,7 @@ body {
 }
 
 .content-container-1 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
 
@@ -100,7 +109,7 @@ body {
   margin: 0 auto;
   text-align: center;
   color: #305964;
-  font-size: 2.5em;
+  font-size: 2.25em;
   line-height: 300px;
   white-space: nowrap;
 }
@@ -111,7 +120,7 @@ body {
 }
 
 .content-container-3 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
 
@@ -147,7 +156,15 @@ body {
     font-size: 10em;
   }
 
+  .content-container-1 h3 {
+    font-size: 2em;
+  }
+
   .content-2-text-container h3  {
     font-size: 3em;
+  }
+
+  .content-container-3 h3 {
+    font-size: 2em;
   }
 }
