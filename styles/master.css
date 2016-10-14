@@ -18,7 +18,7 @@ body {
 /* header image styling */
 .header-img-container > img {
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
 
 /*navbar styling*/
@@ -106,12 +106,12 @@ body {
 .header-text-container {
   position: absolute;
   bottom: 50px;
-  left: 100px;
+  left: 50px;
   z-index: 1;
 }
 
 .header-text {
-  font-size: 15em;
+  font-size: 12em;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -126,7 +126,7 @@ body {
 .content-container-1 {
   width: 65%;
   margin: 150px auto;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .content-container-2 {
@@ -134,7 +134,7 @@ body {
   height: 300px;
   background-color: #d8d8d8;
   font-size: 2em;
-  padding-top: 85px;
+  padding-top: 70px;
   box-sizing: border-box;
 }
 
@@ -148,7 +148,7 @@ body {
 .content-container-3 {
   width: 65%;
   margin: 150px auto;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* styling the footer */
