@@ -181,7 +181,7 @@ body {
 /*styling for landscape phones*/
 @media (min-width: 574px) and (max-width: 765px) {
   .content-2-text-container h3 {
-    top: 40px;
+    top: 37px;
     right: 25px;
   }
 }
