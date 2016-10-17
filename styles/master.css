@@ -54,22 +54,29 @@ body {
   opacity: .8;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #305964;
+    color:#ffffff;
+  }
+
+
+
 /*jumbotron style*/
 .jumbotron {
  background-image: url(../img/header-img.jpeg);
  background-size: cover;
- height: 500px;
+ height: 400px;
  color: #fff;
  text-shadow: 2px 2px #000;
 }
 
 .container {
- margin-top: 250px;
+ margin-top: 175px;
  margin-left: 5px;
 }
 
 .container h1 {
- font-size: 5em;
+ font-size: 4em;
  margin: 0;
 }
 
@@ -89,8 +96,8 @@ body {
 }
 
 .content-container-1 {
-  width: 90%;
-  margin: 25px auto;
+  width: 95%;
+  margin: 15px auto;
 }
 
 .content-container-1 h3 {
@@ -118,8 +125,8 @@ body {
 }
 
 .content-container-3 {
-  width: 90%;
-  margin: 25px auto;
+  width: 95%;
+  margin: 15px auto;
 }
 
 .content-container-3 h3 {
@@ -143,22 +150,54 @@ body {
 }
 
 
-/*styling for tablets*/
-
-@media (min-width: 766px) and (max-width: 1029px){
-  /*styling the navbar*/
-  .navbar-default {
-      display: inline-block;;
+/*styling for iphone 6 screen and up*/
+@media (min-width: 374px) and (max-width: 573px) {
+  /*styling jumbotron*/
+  .jumbotron {
+    height: 500px;
   }
+  .container {
+   margin-top: 250px;
+   margin-left: 5px;
+  }
+
+  .container h1 {
+   font-size: 5em;
+  }
+
+  /*styling content*/
+  .content-container-1 {
+    width: 90%;
+    margin: 25px auto;
+  }
+
+  .content-container-3 {
+    width: 90%;
+    margin: 25px auto;
+  }
+
+}
+
+/*styling for landscape phones*/
+@media (min-width: 574px) and (max-width: 765px) {
+  .content-2-text-container h3 {
+    top: 40px;
+    right: 25px;
+  }
+}
+
+/*styling for portrait tablets*/
+
+@media (min-width: 766px) and (max-width: 949px){
 
   /*styling the jumbotron*/
 
   .jumbotron {
-    height: 700px;
+    height: 600px;
   }
 
   .container {
-   margin-top: 425px;
+   margin-top: 350px;
    margin-left: 15px;
   }
 
@@ -171,7 +210,7 @@ body {
   .content-container-3 {
   margin: 50px auto;
   }
-  
+
   .content-2-text-container h3  {
     font-size: 1.75em;
     position: inherit;
@@ -181,10 +220,42 @@ body {
 
 }
 
+/*styling for landscape tablets */
+@media (min-width: 950px) and (max-width: 1029px){
+  /*styling the jumbotron*/
+  .jumbotron {
+    height: 600px;
+  }
+
+  .container {
+   margin-top: 300px;
+   margin-left: 30px;
+  }
+
+  .container h1 {
+   font-size: 7em;
+  }
+
+  .container p {
+    font-size: 2em;
+  }
+
+  .container p a {
+    font-size: .75em;
+  }
+
+  /*styling the content*/
+  .content-2-text-container h3 {
+    font-size: 2.25em;
+    position: inherit;
+    line-height: 100px;
+    white-space: nowrap;
+  }
+}
 
 
 
-/*setting css for medium screen*/
+/*styling for medium screen*/
 @media (min-width: 1030px) and (max-width: 1499px) {
 
   /*styling the jumbotron*/
@@ -238,14 +309,11 @@ body {
   }
 
 
-  .navbar-default {
-      display: inline-block;;
-  }
 
 }
 
 
-/*setting css for 1080p screen*/
+/*styling for 1080p screen*/
 
 @media (min-width: 1500px) {
 
@@ -285,10 +353,6 @@ body {
     width: 65%;
     margin: 100px auto;
     font-size: 2em;
-  }
-
-  .navbar-default {
-      display: inline-block;;
   }
 
 
