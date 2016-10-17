@@ -94,7 +94,7 @@ body {
 }
 
 .content-container-1 h3 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: sans-serif;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .content-container-3 h3 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: sans-serif;
 }
 
@@ -170,6 +170,9 @@ body {
     width: 65%;
     margin: 100px auto;
   }
+  .content-container-1 h3 {
+    font-size: 1.5em;
+  }
 
   .content-2-text-container h3 {
     font-size: 2.25em;
@@ -182,6 +185,12 @@ body {
     width: 65%;
     margin: 100px auto;
   }
+
+  .content-container-3 h3 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
+
 
 
 
