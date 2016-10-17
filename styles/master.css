@@ -280,8 +280,8 @@ body {
 
   /*stying the content*/
   .content-container-1 {
-    width: 65%;
-    margin: 100px auto;
+    width: 70%;
+    margin: 75px auto;
   }
   .content-container-1 h3 {
     font-size: 1.5em;
@@ -290,17 +290,17 @@ body {
   .content-2-text-container h3 {
     font-size: 2.25em;
     position: inherit;
-    line-height: 300px;
+    line-height: 200px;
     white-space: nowrap;
   }
 
   .content-container-2 {
-    height: 300px;
+    height: 200px;
   }
 
   .content-container-3 {
-    width: 65%;
-    margin: 100px auto;
+    width: 70%;
+    margin: 75px  auto;
   }
 
   .content-container-3 h3 {
@@ -323,8 +323,8 @@ body {
   }
 
   .container {
-    margin-top: 425px;
-    margin left: 75px;
+    margin-top: 450px;
+    margin left: 100px;
   }
 
   .container h1 {
@@ -335,23 +335,23 @@ body {
   .content-container-1 h3 {
     font-size: 2em;
     width: 65%;
-    margin: 100px auto;
+    margin: 75px auto;
   }
 
   .content-2-text-container h3  {
     font-size: 3em;
     position: inherit;
-    line-height: 300px;
+    line-height: 200px;
     white-space: nowrap;
   }
 
   .content-container-2 {
-    height: 300px;
+    height: 200px;
   }
 
   .content-container-3 h3 {
     width: 65%;
-    margin: 100px auto;
+    margin: 75px auto;
     font-size: 2em;
   }
 
