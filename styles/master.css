@@ -58,27 +58,28 @@ body {
 .jumbotron {
  background-image: url(../img/header-img.jpeg);
  background-size: cover;
- height: 600px;
+ height: 1200px;
  color: #fff;
  text-shadow: 2px 2px #000;
 }
 
 .container {
- margin-top: 275px;
+ margin-top: 700px;
  margin-left: 50px;
 }
 
 .container h1 {
- font-size: 8em;
+ font-size: 12em;
  margin: 0;
 }
 
 .container p {
- font-size: 2.5em;
+ font-size: 3em;
 }
 
 .container p a {
   text-shadow: none;
+  font-size: 1em;
 }
 
 
@@ -88,8 +89,8 @@ body {
 }
 
 .content-container-1 {
-  width: 65%;
-  margin: 100px auto;
+  width: 90%;
+  margin: 50px auto;
 }
 
 .content-container-1 h3 {
@@ -102,21 +103,21 @@ body {
   height: 300px;
   background-color: #d8d8d8;
   box-sizing: border-box;
+  position: relative;
 }
 
 .content-2-text-container h3 {
-  width: 70%;
   margin: 0 auto;
   text-align: center;
   color: #305964;
-  font-size: 2.25em;
-  line-height: 300px;
-  white-space: nowrap;
+  font-size: 4em;
+  position: absolute;
+  top: 80px;
 }
 
 .content-container-3 {
-  width: 65%;
-  margin: 100px auto;
+  width: 90%;
+  margin: 50px auto;
 }
 
 .content-container-3 h3 {
@@ -136,13 +137,74 @@ body {
   color: #fff;
   line-height: 50px;
   float: right;
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
+@media (min-width: 200px) and (max-width: 749px) {
+  .jumbotron {
+    height: 1500px !important;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+
+
+  .jumbotron {
+    height: 100px !important;
+  }
+}
+
+
+/*setting css for medium screen*/
+@media (min-width: 1000px) and (max-width: 1499px) {
+
+  /*styling the jumbotron*/
+
+  .jumbotron {
+    height: 600px;
+  }
+
+  .container {
+   margin-top: 275px;
+   margin-left: 50px;
+  }
+
+  .container h1 {
+   font-size: 8em;
+   margin: 0;
+  }
+
+  .container p {
+   font-size: 2.5em;
+  }
+
+  /*stying the content*/
+  .content-container-1 {
+    width: 65%;
+    margin: 100px auto;
+  }
+
+  .content-2-text-container h3 {
+    font-size: 2.25em;
+    position: inherit;
+    line-height: 300px;
+    white-space: nowrap;
+  }
+
+  .content-container-3 {
+    width: 65%;
+    margin: 100px auto;
+  }
+
+
+
+}
 
 /*setting css for 1080p screen*/
 
 @media (min-width: 1500px) {
+
+  /*styling the jumbotron*/
   .jumbotron {
     height: 800px;
   }
@@ -156,15 +218,24 @@ body {
     font-size: 10em;
   }
 
+  /*stying the content*/
   .content-container-1 h3 {
     font-size: 2em;
+    width: 65%;
   }
 
   .content-2-text-container h3  {
     font-size: 3em;
+    position: inherit;
+    line-height: 300px;
+    white-space: nowrap;
   }
 
-  .content-container-3 h3 {
+  .content-container-3 {
+    width: 65%;
+    margin: 100px auto;
     font-size: 2em;
   }
+
+
 }
