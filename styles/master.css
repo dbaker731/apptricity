@@ -140,19 +140,6 @@ body {
   margin-right: 10px !important;
 }
 
-@media (min-width: 200px) and (max-width: 749px) {
-  .jumbotron {
-    height: 1500px !important;
-  }
-}
-
-@media (min-width: 750px) and (max-width: 999px) {
-
-
-  .jumbotron {
-    height: 100px !important;
-  }
-}
 
 
 /*setting css for medium screen*/
